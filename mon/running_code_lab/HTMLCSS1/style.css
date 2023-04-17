@@ -1,0 +1,100 @@
+body{
+    background-color: black;
+}
+nav{
+    text-align: center;
+    position: fixed;
+    width: 100%;
+}
+li {
+    text-align: center;
+    display: inline-block;
+    padding: 0px 1%;
+    font-size: 30px;
+    font-family: 'Anton', sans-serif;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color:orange;
+}
+header{
+    background-image: url('img/ironman.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 900px;
+    color: white;
+}
+#main{
+    display: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(10%, 120%);
+    width: fit-content;
+}
+.title{
+    font-family: 'Rubik Wet Paint', cursive;
+    font-size: 100px;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.subTitle{
+    font-family: 'Bungee Spice', cursive;
+    padding: 0;
+    margin: 0;
+    font-size: 70px;
+    text-align: center;
+}
+
+main{
+    width: 100%;
+    height: 1300px;
+}
+#about{
+    margin: 20px auto;
+    width: 80%;
+    padding-top: 50px;
+    padding-bottom: 120px;
+ }
+#about h1{
+    font-family: 'Bungee Spice', cursive;
+    padding: 0;
+    margin: 50px 0px;
+    font-size: 150px;
+    text-align: center;
+ }
+.aboutBody{
+    background-color: white;
+    font-size: 25px;
+    text-align: center;
+    padding: 10px;
+    box-shadow: 0 0 20px #f44336,
+    0 0 40px #f44336,
+    0 0 80px #f44336;
+}
+table{
+    margin:auto;
+    text-align: center;
+}
+#movies h1{
+    font-family: 'Bungee Spice', cursive;
+    padding-top: 0;
+    font-size: 120px;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+td img{
+    max-width: 70%;
+}
+td h3{
+    color: white;
+    font-size: 30px;
+    font-family: 'Anton', sans-serif;
+}
