@@ -1,0 +1,100 @@
+html,body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    overflow-x: hidden;
+    background-color: black;
+}
+#space{
+    width: 300px;
+    height: 250px;
+    position: absolute;
+    top: -5.5rem;
+    left: 2rem;
+    
+}
+nav{
+    text-align: center;
+    position: fixed;
+    top:1rem;
+    width: 100%;
+}   
+
+li {
+    text-align: center;
+    display: inline-block;
+    padding: 0px 1%;
+    font-size: 15px;
+    font-family: 'Anton', sans-serif;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+
+.box{
+    color: white;
+    font-family: sans-serif;
+    position: relative;
+    top: 35rem;
+    left: 5rem;
+}
+.titleP{
+    font-weight: 100;
+    font-size: 25px;
+    margin:0;
+}
+.title h1{
+    font-size: 50px;
+    margin-top: 0rem;
+    margin-bottom: 2rem;
+    max-width: 40%;
+}
+.watch{
+    color: white;
+    border: 2px white solid;
+    width: max-content;
+}
+.watch p{
+    font-size: 15px;
+    font-weight: 500;
+    padding: 0.25rem 4rem;
+}
+section{
+    width: 100%;
+    height:100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.one{ 
+    background-image: url('https://sxcontent9668.azureedge.us/cms-assets/assets/STARSHIP_CAROUSEL_DESKTOP_Sunset_Full_Stack_031522_DJI_0066_544ff6b208.jpg');
+}
+.two{
+    background-image: url('https://sxcontent9668.azureedge.us/cms-assets/assets/Homepage_Starlink_SLC_40_Desktop_cac54ee8bd.jpg');
+}
+.three{
+    background-image: url('https://sxcontent9668.azureedge.us/cms-assets/assets/HOMEPAGE_CRS_27_Desktop_fcc63e2c6c.png');
+}
+.four{
+    background-image: url('https://sxcontent9668.azureedge.us/cms-assets/assets/Trans_7_OS_56_0469_Desktop_e7dc1ccff2.jpg');
+}
+.five{
+    background-image: url('https://sxcontent9668.azureedge.us/cms-assets/assets/Homepage_Desktop_5ebdeb0c6c.webp');
+}
+
+.boxEnd{
+    color: white;
+    font-family: sans-serif;
+    position: relative;
+    top: 28rem;
+    left: 5rem;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin: 3rem 0rem;
+}
