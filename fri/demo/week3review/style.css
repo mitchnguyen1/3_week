@@ -1,0 +1,98 @@
+body{
+    overflow-x:hidden ;
+}
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+:root {
+    --font-family-logo: 'Nanum Pen Script', cursive;;
+    --font-family-regular:'Fira Sans', sans-serif;
+    --primary-color: black;
+    --secondary-color: white;
+
+}
+
+header {
+    height: 10vh;
+    width: 100vw;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    font-family: var(--font-family-logo);
+    font-size: 40px;
+    /* center the title */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-section{
+    display: flex;
+    height: auto;
+}
+
+#hero-image{
+    width: 100%;
+}
+
+.buy-btn{
+    padding: 12px;
+    border-radius: 14px;
+    border: none;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    height: 70px;
+    width: 150px;
+    font-family: var(--font-family-regular);
+    font-size: 20px;
+    /* position the button on the image */
+    position: relative;
+    bottom: 100px;
+    left: 50%;
+
+}   
+#pizza-display{
+    display: flex;
+    justify-content: space-evenly;
+    height: 36vh;
+}
+
+.pizzaItem{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+
+.pizzaItem > img{
+    width: auto;
+    height: 80%;
+}
+.form-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    height: 30vh;
+}
+
+input{
+    width: 25vw;
+    padding: 5px;
+    margin-bottom: 8px;
+    border-radius: 18px;
+}
+label{
+    font-size: 20px;
+}
+
+.submitBtn {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    font-size: 20px;
+    border-radius: 12px;
+    padding: 10px;
+}
